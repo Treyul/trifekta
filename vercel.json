@@ -14,7 +14,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "wsgi.py"
+      "dest": "trifekta/wsgi.py"
     }
   ]
 }
