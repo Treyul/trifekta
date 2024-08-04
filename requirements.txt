@@ -4,7 +4,6 @@ btrfsutil
 cffi
 charset-normalizer
 cryptography
-cupshelpers
 dbus-python
 Django
 docopt
