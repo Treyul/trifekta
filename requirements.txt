@@ -1,9 +1,3 @@
-
 Django
-
-reportlab
-requests
-sqlparse
-urllib3
-wheel
+packaging
 gunicorn

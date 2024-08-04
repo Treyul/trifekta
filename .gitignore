@@ -1,0 +1,6 @@
+.vercel
+/lib
+/lib64
+/include
+/bin
+/staticfiles
