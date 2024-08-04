@@ -1,1 +1,1 @@
-from wsgi import application
+from trifekta.wsgi import application
