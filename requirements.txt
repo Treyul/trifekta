@@ -1,3 +1,4 @@
 Django
 packaging
 gunicorn
+django-on-heroku
