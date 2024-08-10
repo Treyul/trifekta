@@ -6,6 +6,7 @@
     <title>Trifekta</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'home.css' %}" />
+    <script defer src="{% static 'home.js' %}"></script>
   </head>
   <body>
     <section>
@@ -41,44 +42,38 @@
         <article>
           <h1>Pumps and motors</h1>
           <section class="services">
-            <div>
+            <div class="active">
               <p>Replacements</p>
               <p>
-                Do you have a worn out pump or motor?Want to upgrade. look no
-                further, we will do that for you . Giving the best advice we
-                will help you achieve what you want
+                Do you have a worn out pump or motor?Want to upgrade. Giving the
+                best advice we will help you achieve what you want
               </p>
               <section class="images"></section>
             </div>
-            <!--
-          <div>
-            <p>installations</p>
-            <p>
-              We install pumps both submersible and ordinary pumps. With
-              versatile expertise in this, we offer to install and provide after
-              services such as repairs
-            </p>
-            <section class="images"></section>
-          </div>
-          <div>
-            <p>Repairs and maintenace</p>
-            <p>
-              After long usage of motor they may require servicing. We service
-              old pumps and get them back to work in not time.
-            </p>
-            <section class="images"></section>
-          </div>
 
-          -->
-            <!-- <footer>
-            <div class="outer"><div class="inner"></div></div>
-          </footer> -->
+            <div class="inactive-in" style="display: none">
+              <p>installations</p>
+              <p>
+                We install pumps both submersible and ordinary pumps. We also
+                provide after services such as repairs
+              </p>
+              <section class="images"></section>
+            </div>
+            <div class="inactive-in" style="display: none">
+              <p>Repairs and maintenace</p>
+              <p>
+                After long usage of motor they may require servicing. We service
+                old pumps and get them back to work in not time.
+              </p>
+              <section class="images"></section>
+            </div>
           </section>
         </article>
+
         <article>
           <h1>Plumbing services</h1>
           <section class="services">
-            <div>
+            <!-- <div class="active">
               <p>design & Consultations</p>
               <section class="images"></section>
               <p>
@@ -86,13 +81,13 @@
                 a proffessional touch to your projects, from commercial water
                 supply lines to plumbing works of aparments.
               </p>
-            </div>
+            </div> -->
 
-            <!-- <div>
+            <div class="active">
               <p>Installation of water related fittings</p>
               <p>We install water fiitings.lorepum ipsum ipsodus</p>
               <section class="images"></section>
-            </div> -->
+            </div>
           </section>
         </article>
       </section>
@@ -143,15 +138,15 @@
       <div>
         <p>
           Email:
-          <a href="mailto:trifekta@gmail.com">trifekta@gmail.com</a>
+          <a href="mailto: emmanuelryley55@gmail.com">trifekta@gmail.com</a>
         </p>
       </div>
-      <div>Tel no : +254702031271</div>
+      <div><a href="tel:+254741040806">Tel no : +254741040806</a></div>
       <section>
         <h3>Our social platforms are</h3>
         <div>
           <p>
-            whatsapp icon: <a href="https://wa.me/+254702031271">Whatsapp</a>
+            <a href="https://wa.me/+254702031271">Whatsapp</a>
           </p>
         </div>
       </section>
