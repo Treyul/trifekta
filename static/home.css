@@ -149,8 +149,8 @@ body > header p {
   /* grid-column: 2 / span 1; */
   background-color: white;
   /* border-left: 1px solid black; */
-  background-color: lightblue;
-  height: 150px;
+  /* background-color: lightblue; */
+  /* height: 150px; */
 }
 #services section article:last-child {
   margin-bottom: 0px;
@@ -179,6 +179,7 @@ body > header p {
 .team header h2 {
   width: -webkit-fill-available;
   text-align: center;
+  color: navy;
   /* box-shadow: inset 0px 13px 12px #a5a5a5;
   background: linear-gradient(white, cornflowerblue); */
 }
@@ -187,13 +188,18 @@ body > header p {
   padding: 0.25rem;
   margin: 0.5rem;
   text-align: center;
-  background-color: white;
+  color: white;
+  background-color: #190253;
   width: -webkit-fill-available;
 }
 .photo-img {
   height: 150px;
   /* width: 175px; */
   background-color: aquamarine;
+}
+.photo-img img {
+  height: 150px;
+  width: 100%;
 }
 .photo-img hr {
   color: navy;
@@ -213,10 +219,14 @@ footer {
 footer h2 {
   margin-top: 0px;
   padding-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: teal;
 }
 footer a {
   text-decoration: none;
   color: white;
+  display: block;
+  margin: 0.5rem auto;
 }
 footer a:visited {
   text-decoration: none;
