@@ -1,6 +1,6 @@
 /* imported styles */
-@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Playwrite+DK+Uloopet:wght@100..400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Playwrite+DK+Uloopet:wght@100..400&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Playwrite+DK+Uloopet:wght@100..400&family=Tangerine:wght@400;700&display=swap");
 
 /* end of imports */
@@ -164,7 +164,7 @@ body > header p {
 }
 .team {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+
   justify-items: center;
   background-color: #6495edb5;
   position: relative;
@@ -174,7 +174,6 @@ body > header p {
 .team header {
   font-weight: bold;
   font-size: large;
-  grid-column: 1 / span 2;
 }
 .team header h2 {
   width: -webkit-fill-available;
@@ -234,4 +233,22 @@ footer a:visited {
 }
 footer section p {
   margin-bottom: 0px;
+}
+
+/* device width greater than 760px */
+@media screen and (max-width: 760px) {
+  .team {
+    grid-template-columns: 1fr 1fr;
+  }
+  .team header {
+    grid-column: 1 / span 2;
+  }
+}
+@media screen and (min-width: 761px) {
+  .team {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .team header {
+    grid-column: 1 / span 4;
+  }
 }
